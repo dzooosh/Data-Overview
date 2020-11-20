@@ -2,15 +2,15 @@
 # Display this after evaluation
 
 #create function for all operations
-function Add(x, y):
-  result = x + y
-  return result
-function sqrt(x):
-   result = x*x
-   return result
+def Add(x, y):
+    result = x + y
+    return result
+def sqrt(x):
+    result = x*x
+    return result
    
-x = input('enter your x value': )
-y = input('enter your y value': )
+x = int(input('enter your x value: '))
+y = int(input('enter your y value: '))
  
-sqrt(y)
-Add(x, y)
+print(sqrt(y))
+print(Add(x, y))
